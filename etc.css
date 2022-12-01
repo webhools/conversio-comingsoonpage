@@ -1,0 +1,41 @@
+/* Add Fonts */
+@font-face {
+    font-family: 'regular';
+    src: url('fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('fonts/bold.ttf');
+}
+
+@font-face {
+    font-family: 'medium';
+    src: url('fonts/medium.ttf');
+}
+
+.regular {
+    font-family: 'regular', sans-serif;
+}
+
+.bold {
+    font-family: 'bold', sans-serif;
+}
+
+.medium {
+    font-family: 'medium', sans-serif;
+}
+
+.bg-lefto {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 420px;
+}
+
+.bg-righto {
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 420px;
+}
